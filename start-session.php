@@ -12,4 +12,7 @@ if ($_SERVER["SERVER_NAME"] === "localhost") {
         "username" => "Nathcat"
     ];
 }
+else if (!array_key_exists("user", $_SESSION)) {
+    header("Location: https://data.nathcat.net/sso/?return-page=https://apps.nathcat.net");
+}
 ?>
