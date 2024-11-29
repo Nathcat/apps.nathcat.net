@@ -14,5 +14,5 @@
 }
 
 .content-card.app-card:hover {
-    box-shadow: 0 0 10px 10px var(--quad-color);
+    background: linear-gradient(45deg, #e600ff 0%, #00ccff 100%);
 }
