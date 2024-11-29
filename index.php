@@ -27,8 +27,11 @@
                 </div>
 
                 <div onclick="location = 'https://sudoku.nathcat.net';" class="content-card app-card column align-center justify-center">
-                    <!--<img width="100" height="100" src="/static/images/peoplecat-logo.png" />-->
                     <h2>SudokuCat</h2>
+                </div>
+
+                <div onclick="location = 'https://blog.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>BlogCat</h2>
                 </div>
             </div>
 
