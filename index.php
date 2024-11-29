@@ -21,7 +21,7 @@
                     <h2>AuthCat</h2>
                 </div>
 
-                <div onclick="location = 'https://nathcat.net:8080';" class="content-card app-card column align-center justify-center">
+                <div onclick="location = 'https://peoplecat.nathcat.net';" class="content-card app-card column align-center justify-center">
                     <img width="100" height="100" src="/static/images/peoplecat-logo.png" />
                     <h2>PeopleCat</h2>
                 </div>
