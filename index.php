@@ -33,6 +33,11 @@
                 <div onclick="location = 'https://blog.nathcat.net';" class="content-card app-card column align-center justify-center">
                     <h2>BlogCat</h2>
                 </div>
+
+                <div onclick="location = '/HackCat';" class="content-card app-card column align-center justify-center">
+                    <img width="100" height="100" src="/static/images/hackcat-logo.png" />
+                    <h2>HackCat</h2>
+                </div>
             </div>
 
             <?php include("footer.php"); ?>
