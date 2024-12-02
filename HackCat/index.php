@@ -60,6 +60,7 @@
           <li>Joseph Holland</li>
           <li>Tyler Gillett</li>
         </ul>
+        <p><a href="https://blog.nathcat.net/?page=2"><i>Check out our BlogCat post about this event!</i></a></p>
         <p><i>Taken from the project's Devpost:</i></p>
         <h2>Inspiration</h2>
         <p>
