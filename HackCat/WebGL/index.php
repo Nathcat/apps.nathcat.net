@@ -92,7 +92,7 @@
     // Set this to false if you want to decouple this synchronization from
     // happening inside the engine, and you would instead like to size up
     // the canvas DOM size and WebGL render target sizes yourself.
-    // config.matchWebGLToCanvasSize = false;
+    config.matchWebGLToCanvasSize = false;
 
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       // Mobile device style: fill the whole browser client area with the game canvas:
@@ -112,8 +112,8 @@
     } else {
       // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-      canvas.style.width = "960px";
-      canvas.style.height = "540px";
+      canvas.style.width = "80vw";
+      canvas.style.height = "45vw";
     }
 
     loadingBar.style.display = "block";
