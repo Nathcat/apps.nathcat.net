@@ -76,9 +76,9 @@
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/HackCat.loader.js";
     var config = {
-      dataUrl: buildUrl + "/HackCat.data.br",
-      frameworkUrl: buildUrl + "/HackCat.framework.js.br",
-      codeUrl: buildUrl + "/HackCat.wasm.br",
+      dataUrl: buildUrl + "/HackCat.data.gz",
+      frameworkUrl: buildUrl + "/HackCat.framework.js.gz",
+      codeUrl: buildUrl + "/HackCat.wasm.gz",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "HackSussex-GameJam-2024-HackCat",
