@@ -20,6 +20,8 @@
     <div class="main align-center">
       <a href="..">Go back</a>
 
+      <div id="unity-fullscreen-button"></div>
+
       <div id="unity-container" class="unity-desktop">
         <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
         <div id="unity-loading-bar">
@@ -31,7 +33,6 @@
         <div id="unity-warning"> </div>
         <div id="unity-footer">
           <!--<div id="unity-webgl-logo"></div>-->
-          <div id="unity-fullscreen-button"></div>
           <!--<div id="unity-build-title">HackSussex-GameJam-2024-HackCat</div>-->
         </div>
       </div>
