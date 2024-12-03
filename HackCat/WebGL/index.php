@@ -11,30 +11,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://nathcat.net/static/css/new-common.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div class="content">
-    <?php include("../header.php"); ?>
-
-    <div class="main align-center">
-      <a href="..">Go back</a>
-
-      <div id="unity-fullscreen-button"></div>
-
-      <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
-        <div id="unity-loading-bar">
-          <div id="unity-logo"></div>
-          <div id="unity-progress-bar-empty">
-            <div id="unity-progress-bar-full"></div>
-          </div>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
         </div>
-        <div id="unity-warning"> </div>
-        <div id="unity-footer">
-          <!--<div id="unity-webgl-logo"></div>-->
-          <!--<div id="unity-build-title">HackSussex-GameJam-2024-HackCat</div>-->
-        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <!--<div id="unity-webgl-logo"></div>-->
+        <div id="unity-fullscreen-button"></div>
+        <!--<div id="unity-build-title">HackSussex-GameJam-2024-HackCat</div>-->
       </div>
     </div>
 
@@ -96,7 +90,7 @@
 
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       // Mobile device style: fill the whole browser client area with the game canvas:
-      
+
       var meta = document.createElement('meta');
       meta.name = 'viewport';
       meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
@@ -112,8 +106,8 @@
     } else {
       // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-      canvas.style.width = "80vw";
-      canvas.style.height = "45vw";
+      canvas.style.width = "960px";
+      canvas.style.height = "540px";
     }
 
     loadingBar.style.display = "block";
