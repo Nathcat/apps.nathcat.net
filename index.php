@@ -38,6 +38,10 @@
                     <img width="100" height="100" src="/static/images/hackcat-logo.png" />
                     <h2>HackCat</h2>
                 </div>
+
+                <div onclick="location = 'https://cloud.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>CloudCat</h2>
+                </div>
             </div>
 
             <?php include("footer.php"); ?>
