@@ -42,6 +42,10 @@
                 <div onclick="location = 'https://cloud.nathcat.net';" class="content-card app-card column align-center justify-center">
                     <h2>CloudCat</h2>
                 </div>
+
+                <div onclick="location = 'https://note.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>NoteCat</h2>
+                </div>
             </div>
 
             <?php include("footer.php"); ?>
