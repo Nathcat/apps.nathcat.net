@@ -50,6 +50,10 @@
                 <div onclick="location = 'https://study.nathcat.net';" class="content-card app-card column align-center justify-center">
                     <h2>StudyCat</h2>
                 </div>
+
+                <div onclick="location = 'https://aggro.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>StudyCat</h2>
+                </div>
             </div>
 
             <?php include("footer.php"); ?>
