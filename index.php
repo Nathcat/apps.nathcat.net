@@ -35,8 +35,8 @@
                 <h2>SudokuCat</h2>
             </div>
 
-            <div onclick="location = 'https://sudoku.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>SudokuCat</h2>
+            <div onclick="location = 'https://solitaire.nathcat.net';" class="content-card app-card column align-center justify-center">
+                <h2>SolitaireCat</h2>
             </div>
 
             <div onclick="location = 'https://blog.nathcat.net';" class="content-card app-card column align-center justify-center">
