@@ -1,18 +1,29 @@
 .main {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    margin-left: 20px;
 }
 
 .content-card.app-card {
-    width: calc(100% - 40px);
-    height: calc(100% - 40px);
+    aspect-ratio: 1;
+    width: 15vw;
     margin: 20px;
     cursor: pointer;
     transition: 0.5s;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+    .content-card.app-card {
+        width: 30vw;
+    }
 }
 
 .content-card.app-card:hover {
     background: linear-gradient(45deg, #e600ff 0%, #00ccff 100%);
+}
+
+.app-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }

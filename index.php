@@ -16,52 +16,74 @@
     <div class="content">
         <?php include("header.php"); ?>
 
-        <div class="main justify-center">
-            <div onclick="location = 'https://data.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>DataCat</h2>
+        <div class="main">
+            <div style="width: 50%;" class="column">
+                <h1>Welcome, <?php echo $_SESSION["user"]["fullName"]; ?></h1>
+                <p>
+                    Welcome to the homepage of the Nathcat network! From here you can access all of the applications which are part of the network.
+                </p>
             </div>
 
-            <div onclick="location = 'https://data.nathcat.net/sso';" class="content-card app-card column align-center justify-center">
-                <img width="100" height="100" style="transform: translateY(12.5px);" src="https://data.nathcat.net/sso/AuthCat.png" />
-                <h2>AuthCat</h2>
+            <h1>Productivity</h1>
+            <div class="app-row">
+                <div onclick="location = 'https://cloud.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>CloudCat</h2>
+                </div>
+
+                <div onclick="location = 'https://note.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>NoteCat</h2>
+                </div>
+
+                <div onclick="location = 'https://study.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>StudyCat</h2>
+                </div>
             </div>
 
-            <div onclick="location = 'https://people.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <img width="100" height="100" src="/static/images/peoplecat-logo.png" />
-                <h2>PeopleCat</h2>
+            <h1>Social</h1>
+            <div class="app-row">
+                <div onclick="location = 'https://data.nathcat.net/sso';" class="content-card app-card column align-center justify-center">
+                    <img width="100" height="100" style="transform: translateY(12.5px);" src="https://data.nathcat.net/sso/AuthCat.png" />
+                    <h2>AuthCat</h2>
+                </div>
+
+                <div onclick="location = 'https://people.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <img width="100" height="100" src="/static/images/peoplecat-logo.png" />
+                    <h2>PeopleCat</h2>
+                </div>
+
+                <div onclick="location = 'https://blog.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>BlogCat</h2>
+                </div>
             </div>
 
-            <div onclick="location = 'https://sudoku.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>SudokuCat</h2>
+            <h1>Games</h1>
+            <div class="app-row">
+                <div onclick="location = 'https://sudoku.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>SudokuCat</h2>
+                </div>
+
+                <div onclick="location = 'https://solitaire.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>SolitaireCat</h2>
+                </div>
+
+                <div onclick="location = '/HackCat';" class="content-card app-card column align-center justify-center">
+                    <img width="100" height="100" src="/static/images/hackcat-logo.png" />
+                    <h2>HackCat</h2>
+                </div>
             </div>
 
-            <div onclick="location = 'https://solitaire.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>SolitaireCat</h2>
+            <h1>Developer</h1>
+            <div class="app-row">
+                <div onclick="location = 'https://data.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>DataCat</h2>
+                </div>
             </div>
 
-            <div onclick="location = 'https://blog.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>BlogCat</h2>
-            </div>
-
-            <div onclick="location = '/HackCat';" class="content-card app-card column align-center justify-center">
-                <img width="100" height="100" src="/static/images/hackcat-logo.png" />
-                <h2>HackCat</h2>
-            </div>
-
-            <div onclick="location = 'https://cloud.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>CloudCat</h2>
-            </div>
-
-            <div onclick="location = 'https://note.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>NoteCat</h2>
-            </div>
-
-            <div onclick="location = 'https://study.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>StudyCat</h2>
-            </div>
-
-            <div onclick="location = 'https://aggro.nathcat.net';" class="content-card app-card column align-center justify-center">
-                <h2>AggroCat</h2>
+            <h1>Other</h1>
+            <div class="app-row">
+                <div onclick="location = 'https://aggro.nathcat.net';" class="content-card app-card column align-center justify-center">
+                    <h2>AggroCat</h2>
+                </div>
             </div>
         </div>
 
