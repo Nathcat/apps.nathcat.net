@@ -22,6 +22,17 @@
                 <p>
                     Welcome to the homepage of the Nathcat network! From here you can access all of the applications which are part of the network.
                 </p>
+                <p>
+                    This network of web apps is a culmination of my 9 years of programming. While it is by no means perfect, it has truly tested
+                    my knowledge and abilities as a programmer. I have put a lot of work and passion into developing the apps you will find here,
+                    and the result is one of the most complex systems I have ever built.
+                </p>
+                <p>
+                    I truly hope you enjoy what you find here, and I thank you for your help in developing the network.
+                </p>
+                <p>
+                    Best wishes,<br>Nathcat.
+                </p>
             </div>
 
             <h1>Productivity</h1>
