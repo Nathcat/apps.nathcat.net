@@ -53,12 +53,12 @@
             <h1>Social</h1>
             <div class="app-row">
                 <div onclick="location = 'https://data.nathcat.net/sso';" class="content-card app-card column align-center justify-center">
-                    <img width="100" height="100" style="transform: translateY(12.5px);" src="https://data.nathcat.net/sso/AuthCat.png" />
+                    <img style="transform: translateY(12.5px);" src="https://data.nathcat.net/sso/AuthCat.png" />
                     <h2>AuthCat</h2>
                 </div>
 
                 <div onclick="location = 'https://people.nathcat.net';" class="content-card app-card column align-center justify-center">
-                    <img width="100" height="100" src="/static/images/peoplecat-logo.png" />
+                    <img src="/static/images/peoplecat-logo.png" />
                     <h2>PeopleCat</h2>
                 </div>
 
@@ -78,7 +78,7 @@
                 </div>
 
                 <div onclick="location = '/HackCat';" class="content-card app-card column align-center justify-center">
-                    <img width="100" height="100" src="/static/images/hackcat-logo.png" />
+                    <img src="/static/images/hackcat-logo.png" />
                     <h2>HackCat</h2>
                 </div>
             </div>

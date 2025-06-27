@@ -11,9 +11,19 @@
     box-sizing: border-box;
 }
 
+.content-card.app-card img {
+    width: 5vw;
+    aspect-ratio: 1;
+}
+
 @media (max-width: 1000px) {
     .content-card.app-card {
         width: 30vw;
+    }
+
+    .content-card.app-card img {
+        width: 15vw;
+        aspect-ratio: 1;
     }
 }
 
