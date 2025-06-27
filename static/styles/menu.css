@@ -25,6 +25,10 @@
         width: 15vw;
         aspect-ratio: 1;
     }
+
+    .content-card.app-card h2 {
+        font-size: 200%;
+    }
 }
 
 .content-card.app-card:hover {
@@ -36,4 +40,18 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+}
+
+#time, #date {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--tertiary-color);
+    text-align: center;
+}
+
+#time {
+    font-size: 5em;
+}
+
+#date {
+    font-size: 2em;
 }
