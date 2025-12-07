@@ -22,7 +22,7 @@
         <div class="content-card">
           <h1>External links</h1>
           <ul>
-            <li><a href="https://devpost.com/software/mind-over-mana">Devpost</a></li>
+            <li><a href="https://devpost.com/software/mind-your-mana">Devpost</a></li>
             <li><a href="https://github.com/Nathcat/HackSussex-GameJam-2025">GitHub</a></li>
             <ul>
         </div>
