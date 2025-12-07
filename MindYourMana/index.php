@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Mind Over Mana</title>
+  <title>Mind Your Mana</title>
   <link rel="shortcut icon" href="TemplateData/favicon.ico">
   <link rel="stylesheet" href="TemplateData/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,15 +31,13 @@
           <h1>Available as</h1>
           <ul>
             <li><a href="WebGL">WebGL</a></li>
-            <li><a href="https://github.com/Nathcat/HackSussex-GameJam-2024/">Windows</a></li>
+            <li><a href="https://github.com/Nathcat/HackSussex-GameJam-2025/">Windows</a></li>
           <ul>
         </div>
       </div>
 
       <div class="content-card">
-        <img width="100" height="100" src="/static/images/hackcat-logo.png">
-
-        <h1>Mind Over Mana</h1>
+        <h1>Mind Your Mana</h1>
 
         <h2>Inspiration</h2>
         <p>
