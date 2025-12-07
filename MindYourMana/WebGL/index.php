@@ -29,6 +29,8 @@
           <!--<div id="unity-build-title">Mind Your Mana</div>-->
         </div>
       </div>
+
+      <?php include("../../footer.php"); ?>
     </div>
     <script>
       var canvas = document.querySelector("#unity-canvas");
