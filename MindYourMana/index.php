@@ -41,7 +41,7 @@
 
         <h2>Inspiration</h2>
         <p>
-          Mind Your Mana's general style was inspired by several top-down dungeon crawlers, with the artstyle influenced by games such as A Link to the Past. The specific idea of drawing sigils to cast different spells came from both the [Minecraft Hex Casting Mod](https://modrinth.com/mod/hex-casting/versions), as well as the 2016 Google Doodle Halloween game. 
+          Mind Your Mana's general style was inspired by several top-down dungeon crawlers, with the artstyle influenced by games such as A Link to the Past. The specific idea of drawing sigils to cast different spells came from both the <a href="https://modrinth.com/mod/hex-casting/versions">Minecraft Hex Casting Mod</a>, as well as the 2016 Google Doodle Halloween game. 
         </p>
           
         <h2>What it does</h2>
