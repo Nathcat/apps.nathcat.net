@@ -55,6 +55,10 @@
                     <div onclick="location = 'https://study.nathcat.net';" class="content-card app-card column align-center justify-center">
                         <h2>StudyCat</h2>
                     </div>
+
+                    <div onclick="location = 'https://cost.nathcat.net';" class="content-card app-card column align-center justify-center">
+                        <h2>CostCat</h2>
+                    </div>
                 </div>
 
                 <h1>Social</h1>
